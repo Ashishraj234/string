@@ -1,0 +1,10 @@
+public class CompareToExample{
+public static void main(String args[]){
+String s1="Ashish";
+String s2="Ashish";
+String s3="raj";
+String s4="student";
+System.out.println(s1.compareTo(s2));//0 because both are equal
+System.out.println(s1.compareTo(s3));//-17 because "A" is 5 times lower than "r"
+System.out.println(s1.compareTo(s4));//-1 because "r" is 1 times lower than "s"
+}}

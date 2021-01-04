@@ -1,0 +1,7 @@
+class ContainsExample{  
+public static void main(String args[]){  
+String name="Ashish raj a student";  
+System.out.println(name.contains("ashish raj"));  
+System.out.println(name.contains("student"));  
+System.out.println(name.contains("hello"));  
+}}  
